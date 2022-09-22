@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @custom_travel %>
+
+<div>
+  <%= link_to "Edit this custom travel", edit_custom_travel_path(@custom_travel) %> |
+  <%= link_to "Back to custom travels", custom_travels_path %>
+
+  <%= button_to "Destroy this custom travel", @custom_travel, method: :delete %>
+</div>

@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  departure: MyString
+  destination: MyString
+  date: 2022-09-22
+  price: 1.5
+  rating: 1.5
+  comments: MyText
+  physical: MyString
+  characteristics: MyString
+  event_bool: false
+  event: MyText
+
+two:
+  departure: MyString
+  destination: MyString
+  date: 2022-09-22
+  price: 1.5
+  rating: 1.5
+  comments: MyText
+  physical: MyString
+  characteristics: MyString
+  event_bool: false
+  event: MyText

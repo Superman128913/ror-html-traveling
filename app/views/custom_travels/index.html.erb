@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Custom travels</h1>
+
+<div id="custom_travels">
+  <% @custom_travels.each do |custom_travel| %>
+    <%= render custom_travel %>
+    <p>
+      <%= link_to "Show this custom travel", custom_travel %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New custom travel", new_custom_travel_path %>

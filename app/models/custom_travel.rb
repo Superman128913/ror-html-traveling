@@ -1,0 +1,2 @@
+class CustomTravel < ApplicationRecord
+end
